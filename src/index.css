@@ -19,3 +19,9 @@
 .accardion_trans{
     transition: all 0.3s linear;
 }
+
+
+.carouse_lLine{
+    @apply h-[5px] w-full bg-black
+}
+

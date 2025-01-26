@@ -78,5 +78,21 @@ export let product = [
         ],
         like:46,
         category:'lavash'
+    },
+    {
+        id:3,
+        title:'LAVASH',
+        text:` English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
+        img:'../../public/categroy/lavash.png',
+        price:54000,
+        comment:[
+            {
+                
+                name:'Bobur',
+                text:'доступа. При попадании в зону действия двух точек доступа с идентичными SSID приёмник может выбирать между ними на основании данных об уровне сигнала. Стандарт Wi-Fi даёт клиенту полную свободу при выборе критериев для соединения. Более подробно принцип работы описан в официальном тексте стандарта[18].'
+            }
+        ],
+        like:46,
+        category:'lavash'
     }
 ]

@@ -10,7 +10,6 @@ import ClaudeMenu from '../components/ClaudeMenu'
 const Home = () => {
   return (
     <main className='relative'>
-     <Navbar/>
 
 <section>
   <div className='w-full  flex_box flex-col gap-6 pt-40 px-4 mb-38'>
@@ -29,7 +28,7 @@ const Home = () => {
 {
   product.map(item=>(
 
-    <CardProduct key={item.id} title={item.title} price={item.price} img={item.img} text={item.text} like={item.like} comment={item.comment}/>
+    <CardProduct id={item.id} key={item.id} title={item.title} price={item.price} img={item.img} text={item.text} like={item.like} comment={item.comment}/>
   ))
 }
 

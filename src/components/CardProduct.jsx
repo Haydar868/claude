@@ -2,12 +2,16 @@ import React from 'react'
 import { BiSolidComment } from "react-icons/bi";
 import { AiOutlineLike } from "react-icons/ai";
 import playVideo from './images/playVideo.svg'
-const CardProduct = ({title,price,img,text,like,comment}) => {
+import { useNavigate } from 'react-router';
+const CardProduct = ({id,title,price,img,text,like,comment}) => {
 
 let uzs = new Intl.NumberFormat('en-US').format(price)
 let name = title.toUpperCase()
+let navigate = useNavigate()
+
+
   return (
-    <div>
+    <div >
       <div className='w-full flex_box flex-col gap-3 p-3'>
 
 <div className='relative flex_box'>
@@ -21,7 +25,7 @@ let name = title.toUpperCase()
     </span>
 </div>
 
-<div className='h-[230px] mb-10 '>
+<div onClick={()=>navigate(`/product/${id}`)} className='h-[230px] mb-10 '>
 <img  className='h-full w-auto' src={img} alt={text} />
 </div>
 <div className='flex_between w-full px-6'>

@@ -16,6 +16,8 @@
     font-family: "Arsenal SC", serif;
 }
 
+
+
 .accardion_trans{
     transition: all 0.3s linear;
 }
@@ -46,4 +48,8 @@
 
   .menu_btn{
     @apply w-[50px] h-[50px] bg-[#4C4D4D] rounded-full border border-black cursor-pointer
+  }
+
+  .comment_rounded{
+    border-radius: 0 30px 30px 30px;
   }

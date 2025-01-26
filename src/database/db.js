@@ -5,39 +5,39 @@ export let catalog = [
     },
     {
         title:'Cola',
-        img: '../../public/categroy/cola.png'
+        img: '/public/categroy/cola.png'
     },
     {
         title:'Frsh',
-        img: '../../public/categroy/freshSalat.png'
+        img: '/public/categroy/freshSalat.png'
     },
     {
         title:'Hod-Dog',
-        img: '../../public/categroy/hotDog.png'
+        img: '/public/categroy/hotDog.png'
     },
     {
         title:'Lavash',
-        img: '../../public/categroy/lavash.png'
+        img: '/public/categroy/lavash.png'
     },
     {
         title:'pelmen',
-        img: '../../public/categroy/pelmen.png'
+        img: '/public/categroy/pelmen.png'
     },
     {
         title:'Shashlik',
-        img: '../../public/categroy/shashlik.png'
+        img: '/public/categroy/shashlik.png'
     },
     {
         title:'Somsa',
-        img: '../../public/categroy/somsa.png'
+        img: '/public/categroy/somsa.png'
     },
     {
         title:'Coffe',
-        img: '../../public/categroy/coffe.webp'
+        img: '/public/categroy/coffe.webp'
     },
     {
         title:'pirok',
-        img: '../../public/categroy/pirok.png'
+        img: '/public/categroy/pirok.png'
     },
 ]
 
@@ -46,7 +46,7 @@ export let product = [
         id:1,
         title:'BURGER',
         text:`look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-        img:'../../public/categroy/burger.webp',
+        img:'/public/categroy/burger.webp',
         price:35000,
         comment:[
             {
@@ -67,7 +67,7 @@ export let product = [
         id:2,
         title:'LAVASH',
         text:` English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-        img:'../../public/categroy/lavash.png',
+        img:'public/categroy/lavash.png',
         price:54000,
         comment:[
             {
@@ -83,7 +83,7 @@ export let product = [
         id:3,
         title:'LAVASH',
         text:` English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-        img:'../../public/categroy/lavash.png',
+        img:'/public/categroy/lavash.png',
         price:54000,
         comment:[
             {

@@ -42,3 +42,8 @@
     background-color: #000000;
     color: white;
   }
+
+
+  .menu_btn{
+    @apply w-[50px] h-[50px] bg-[#4C4D4D] rounded-full border border-black cursor-pointer
+  }

@@ -4,11 +4,12 @@ import CarouselPizza from '../components/CarouselPizza'
 import Category from '../components/Category'
 import CardProduct from '../components/CardProduct'
 import { product } from '../database/db'
+import ClaudeMenu from '../components/ClaudeMenu'
 
 
 const Home = () => {
   return (
-    <div>
+    <main className='relative'>
      <Navbar/>
 
 <section>
@@ -35,7 +36,9 @@ const Home = () => {
 </section>
 
 
-    </div>
+<ClaudeMenu/>
+
+    </main>
   )
 }
 

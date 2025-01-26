@@ -5,39 +5,39 @@ export let catalog = [
     },
     {
         title:'Cola',
-        img: '/public/categroy/cola.png'
+        img: '../categroy/cola.png'
     },
     {
         title:'Frsh',
-        img: '/public/categroy/freshSalat.png'
+        img: '../categroy/freshSalat.png'
     },
     {
         title:'Hod-Dog',
-        img: '/public/categroy/hotDog.png'
+        img: '../categroy/hotDog.png'
     },
     {
         title:'Lavash',
-        img: '/public/categroy/lavash.png'
+        img: '../categroy/lavash.png'
     },
     {
         title:'pelmen',
-        img: '/public/categroy/pelmen.png'
+        img: '../categroy/pelmen.png'
     },
     {
         title:'Shashlik',
-        img: '/public/categroy/shashlik.png'
+        img: '../categroy/shashlik.png'
     },
     {
         title:'Somsa',
-        img: '/public/categroy/somsa.png'
+        img: '../categroy/somsa.png'
     },
     {
         title:'Coffe',
-        img: '/public/categroy/coffe.webp'
+        img: '../categroy/coffe.webp'
     },
     {
         title:'pirok',
-        img: '/public/categroy/pirok.png'
+        img: '../categroy/pirok.png'
     },
 ]
 
@@ -46,12 +46,12 @@ export let product = [
         id:1,
         title:'BURGER',
         text:`look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-        img:'/public/categroy/burger.webp',
+        img:'../categroy/burger.webp',
         price:35000,
         comment:[
             {
                 
-                name:'Dilmurod Sharipov',
+                name:'Dilmurod ',
                 text:'ID сети, клиент может выяснить, возможно ли подключение к данной точке доступа. При попадании в зону действия двух точек доступа с идентичными SSID приёмник может выбирать между ними на основании данных об уровне сигнала. Стандарт Wi-Fi даёт клиенту полную свободу при выборе критериев для соединения. Более подробно принцип работы описан в официальном тексте стандарта[18].'
             },
             {
@@ -67,12 +67,12 @@ export let product = [
         id:2,
         title:'LAVASH',
         text:` English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-        img:'public/categroy/lavash.png',
+        img:'../categroy/lavash.png',
         price:54000,
         comment:[
             {
                 
-                name:'Bobur',
+                name:'Muhammad',
                 text:'доступа. При попадании в зону действия двух точек доступа с идентичными SSID приёмник может выбирать между ними на основании данных об уровне сигнала. Стандарт Wi-Fi даёт клиенту полную свободу при выборе критериев для соединения. Более подробно принцип работы описан в официальном тексте стандарта[18].'
             }
         ],
@@ -81,14 +81,24 @@ export let product = [
     },
     {
         id:3,
-        title:'LAVASH',
+        title:'SHAshlik',
         text:` English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-        img:'/public/categroy/lavash.png',
+        img:'../categroy/shashlik.png',
         price:54000,
         comment:[
             {
                 
                 name:'Bobur',
+                text:'доступа. При попадании в зону действия двух точек доступа с идентичными SSID приёмник может выбирать между ними на основании данных об уровне сигнала. Стандарт Wi-Fi даёт клиенту полную свободу при выборе критериев для соединения. Более подробно принцип работы описан в официальном тексте стандарта[18].'
+            },
+            {
+                
+                name:'Andey',
+                text:'доступа. При попадании в зону действия двух точек доступа с идентичными SSID приёмник может выбирать между ними на основании данных об уровне сигнала. Стандарт Wi-Fi даёт клиенту полную свободу при выборе критериев для соединения. Более подробно принцип работы описан в официальном тексте стандарта[18].'
+            },
+            {
+                
+                name:'uzb',
                 text:'доступа. При попадании в зону действия двух точек доступа с идентичными SSID приёмник может выбирать между ними на основании данных об уровне сигнала. Стандарт Wi-Fi даёт клиенту полную свободу при выборе критериев для соединения. Более подробно принцип работы описан в официальном тексте стандарта[18].'
             }
         ],

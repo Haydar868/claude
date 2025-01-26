@@ -14,31 +14,23 @@ setHorizantalAccardion(true)
 
   return (
     <div className='absolute top-16 left-[5px] flex_box'>
-      <button onClick={()=>accardion()} className='w-[45px] h-[45px] rounded-full p-2 bg-black flex_box cursor-pointer'>
-<div className='w-full h-full bg-white rounded-full flex_box'>
+
+      <div onClick={()=>accardion()} className={` gap-3 overflow-hidden ${horizantalAccardion ? 'w-[268px]' : 'w-[45px]'}  h-[45px] rounded-full p-2 bg-black flex_between accardion_trans cursor-pointer`}>
+<div className='w-[30px] h-[30px] shrink-0 bg-white rounded-full flex_box'>
 <img src={c} alt="" />
 </div>
-      </button>
 
-<div className={` ${horizantalAccardion ? 'w-[268px] opacity-[1] gap-2' : 'w-0 opacity-0 gap-4'} overflow-x-hidden  flex_between p-2 accardion_trans h-[49px] bg-black rounded-full ml-3`}>
+<p className='text-white shrink-0'>administratsiya call</p>
 
-<button  className='w-[30px] shrink-0 h-[30px] rounded-full  bg-black flex_box cursor-pointer'>
-<div className='w-full h-full bg-white rounded-full flex_box'>
-<img src={c} alt="" />
-</div>
-      </button>
 
-<p className='text-white  shrink-0'>
-administratsiya call
-</p>
-<div className='flex_box gap-2 cursor-pointer'>
-
-<img src={call} alt="" />
-<img src={sms} alt="" />
-
+<div className='flex_box gap-3'>
+<img src={call} alt="icon" />
+<img src={sms} alt="icon" />
 </div>
 
-</div>
+      </div>
+
+
 
     </div>
   )

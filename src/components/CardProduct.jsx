@@ -51,7 +51,7 @@ let name = title.toUpperCase()
 
 </div>
 
-<button className='border-2 font-bold border-black w-[107px] h-[49px] rounded-t-[300px] rounded-b-[300px]'>
+<button className='order_btn '>
 BUYRUTMA
 </button>
 

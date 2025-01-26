@@ -12,7 +12,7 @@ const Home = () => {
      <Navbar/>
 
 <section>
-  <div className='w-full  flex_box flex-col gap-6 pt-40 mb-38'>
+  <div className='w-full  flex_box flex-col gap-6 pt-40 px-4 mb-38'>
 <img className='w-[150px] h-[150px] rounded-full' src="https://img.freepik.com/premium-vector/pizza-logo-design_9845-319.jpg" alt="" />
   <h1 className='akshar font-bold text-[60px]'>Pizza Ceneter</h1>
   

@@ -26,3 +26,19 @@
 }
 
 
+.order_btn {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .order_btn:hover {
+    background-color: #000000;
+    color: white;
+  }

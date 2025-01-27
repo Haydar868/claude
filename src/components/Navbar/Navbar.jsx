@@ -16,24 +16,24 @@ const Navbar = () => {
 
   return (
     <header className='relative'>
-        <div className='flex_between p-2'>
+        <div className='flex_between p-2 gap-3'>
 
 
 
-     <div className='flex_box gap-2 '>
-<button onClick={toggleDrawer} className='text-black text-3xl font-bold'>
+     <div className='flex_box gap-2 mr-2 '>
+<button onClick={toggleDrawer} className='text-black  text-3xl font-bold'>
 <FaBars/>
 </button>
 
-<div className='flex_box gap-1'>
-    <div className='flex_box w-[30px] h-[30px] shrink-0 bg-[#1F1F1F] rounded-[10px] border border-[#D5D5D5]'>
+<div className='flex_box gap-1 mr-2'>
+    <div className='flex_box w-[30px] h-[30px] ml-4 shrink-0 bg-[#1F1F1F] rounded-[10px] border border-[#D5D5D5]'>
 <img src={claudeImage} alt="" />
     </div>
     <img src={claudeText} alt="" />
 </div>
 
      </div>
-<div className=' flex_between w-[148px] h-[40px] rounded-[20px] bg-[#EDEDED]'>
+<div className=' flex_between w-full  h-[35px] rounded-[20px] bg-[#EDEDED]'>
 <button className='font-bold text-2xl pl-2'>
 <CiSearch  />
 </button>

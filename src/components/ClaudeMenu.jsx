@@ -14,7 +14,7 @@ else setWidthMenu(true)
 
   return (
     <div
-      className={` ${widthMenu ? 'w-[98%]' : 'w-[140px]'} h-[78px] gap-3 overflow-hidden accardion_trans rounded-[10px] p-1 left-1 bottom-1 backdrop-blur-xl bg-[#00000088] sticky z-10 text-white flex_between`}
+      className={` ${widthMenu ? 'w-[98%]' : 'w-[140px]'} h-[78px] gap-3  overflow-hidden accardion_trans rounded-[10px] p-1 left-1 bottom-1 backdrop-blur-xl bg-[#00000088] sticky z-10 text-white flex_between`}
     >
         <div onClick={()=>menuWidth()} className='flex_box gap-1 shrink-0'>
 

@@ -35,7 +35,9 @@ const Home = () => {
 </section>
 
 
-<ClaudeMenu/>
+<div className='bottom-1 fixed max-w-[430px] z-20 w-full'>
+       <ClaudeMenu/>
+</div>
 
     </main>
   )

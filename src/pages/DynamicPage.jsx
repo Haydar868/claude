@@ -28,10 +28,10 @@ let filter = sort[0]
        />
        </div>
 
-<div className='bottom-1 fixed max-w-[430px] w-full'>
+
+       <div className='bottom-1 fixed max-w-[430px] z-20 w-full'>
        <ClaudeMenu/>
 </div>
-
 
 
 <div className='w-full h-auto grid grid-cols-1 px-6 mt-16 gap-4'>

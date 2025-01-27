@@ -10,7 +10,6 @@ const locationSearch = location.search.slice(1)
 
 let filter = product.filter(value=>value.category === locationSearch)
 
-console.log(filter);
 
 
   return (
@@ -40,7 +39,7 @@ console.log(filter);
 
 </div>
 
-<div className='grid grid-cols-1 gap-8 mt-44'>
+<div className='grid grid-cols-1 gap-8 mt-54'>
 
 {
     filter?.map(item=>(

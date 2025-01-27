@@ -44,6 +44,7 @@ let filter = product.filter(value=>value.category === locationSearch)
 {
     filter?.map(item=>(
 <CardProduct
+id={item.id}
 key={item.id}
 img={item.img}
 title={item.title}

@@ -14,8 +14,8 @@ const Catalog = () => {
       <div className="w-full relative flex_box px-4">
         <div className="sign-container">
           <div className="sign">
-            <span className="icon">
-              <img src={love} alt="" />
+            <span  className="icon">
+              <img className="heart_icon" src={love} alt="" />
             </span>
             <marquee direction="left">
               <span className="text">menyumizga xush kelibsiz</span>

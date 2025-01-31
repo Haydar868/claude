@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import claude from "../components/Navbar/images/claude.svg";
 import claudeText from "./images/cloudtext.svg";
 import userAvatar from "./images/userAvatar.svg";
 import feed from "./images/fork-knife.svg";
 import cart from "./images/cart.svg";
 import { useNavigate } from "react-router";
+import { CartContext } from "../context/CartContext";
 const ClaudeMenu = () => {
   let [widthMenu, setWidthMenu] = useState(false);
   let menuWidth = () => {
@@ -13,6 +14,8 @@ const ClaudeMenu = () => {
   };
 
   let navigate = useNavigate();
+
+  let {cartProduct} = useContext(CartContext)
 
   return (
     <div
@@ -37,7 +40,11 @@ const ClaudeMenu = () => {
           <img src={feed} alt="icon" />
         </button>
 
-        <button onClick={() => navigate("/cart")} className="menu_btn flex_box">
+        <button onClick={() => navigate("/cart")} className="menu_btn relative flex_box">
+          {
+            cartProduct.length === 0 ? '' : 
+          <span className="text-green-500 text-[10px] absolute top-0">{cartProduct.length}</span>
+          }
           <img src={cart} alt="icon" />
         </button>
       </div>

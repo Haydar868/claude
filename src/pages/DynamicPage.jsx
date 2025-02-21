@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router";
 import { product } from "../database/db";
 import CardProduct from "../components/CardProduct";
@@ -11,6 +11,9 @@ const DynamicPage = () => {
 
   let sort = product.filter((item) => item.id === params);
   let filter = sort[0];
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[id])
 
   return (
     <div className="min-h-[100vh] pb-2 max-w-[430px] relative mx-auto">

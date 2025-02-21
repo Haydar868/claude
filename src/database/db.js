@@ -44,9 +44,9 @@ export let catalog = [
   export let product = [
     {
       id: 1,
-      title: "BURGER",
+      title: "Pitsa",
       text: `look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-      img: "../categroy/burger.webp",
+      img: "https://s3-alpha-sig.figma.com/img/7fff/44d7/18aefd1f3daedf1323f27c5dc32c529d?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=HwaTJMTuLHcAs8xrs~V0ytdbEJUSJm2Mn8rkWb6Y4XYYwmxq3AOEtFkAgGZVffuDrcUhzBZ9psi-IiynGpmhVExT3HjjaoT6ythG92uAt3mKPeglkRM0oRwTDvrNDhdox9Jxynd6LzIHn4n8RKFGNPrV8miuDuy0BP3VIGopo1VYmp6a9w4dUhUjbfvGudhHA5TdvM-wR3aGkvslkbQEZt5cAYQHYgkxZ2f7HzE2X2cQDanCJfDqMkgk~f05psU0hE4LFfvW01ZWp3TEkISr2B-bd50fJ29EFmkIKQrCy3khENH2HnsU~JFEcHfZ~zjnQoGCntnZlkmVc3AG7CRKnQ__",
       price: 35000,
       comment: [
         {
@@ -76,11 +76,12 @@ export let catalog = [
       like: 46,
       category: "lavash",
     },
+
     {
       id: 3,
       title: "SHAshlik",
       text: ` English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-      img: "../categroy/shashlik.png",
+      img: "https://s3-alpha-sig.figma.com/img/7fff/44d7/18aefd1f3daedf1323f27c5dc32c529d?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=HwaTJMTuLHcAs8xrs~V0ytdbEJUSJm2Mn8rkWb6Y4XYYwmxq3AOEtFkAgGZVffuDrcUhzBZ9psi-IiynGpmhVExT3HjjaoT6ythG92uAt3mKPeglkRM0oRwTDvrNDhdox9Jxynd6LzIHn4n8RKFGNPrV8miuDuy0BP3VIGopo1VYmp6a9w4dUhUjbfvGudhHA5TdvM-wR3aGkvslkbQEZt5cAYQHYgkxZ2f7HzE2X2cQDanCJfDqMkgk~f05psU0hE4LFfvW01ZWp3TEkISr2B-bd50fJ29EFmkIKQrCy3khENH2HnsU~JFEcHfZ~zjnQoGCntnZlkmVc3AG7CRKnQ__",
       price: 54000,
       comment: [
         {
@@ -103,7 +104,7 @@ export let catalog = [
       id: 4,
       title: "uzb lavash",
       text: ` English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem`,
-      img: "https://static.vecteezy.com/system/resources/previews/044/765/854/non_2x/stack-of-lavash-png.png",
+      img: "../categroy/lavash.png",
       price: 54000,
       comment: [
         {

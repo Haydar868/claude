@@ -4,11 +4,11 @@ export let CartContext = createContext(null);
 
 export let CartProvider = ({ children }) => {
   let [cartProduct, setCartProduct] = useState([]);
+
   console.log(cartProduct);
 
   const addToCart = (newProduct) => {
-    let filter = cartProduct.filter((item) => item.id !== newProduct.id);
-    setCartProduct(() => [...filter, newProduct]);
+    setCartProduct(() => [...cartProduct, newProduct]);
   };
 
   const deleteCard = (getData) => {

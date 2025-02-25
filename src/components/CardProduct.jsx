@@ -61,7 +61,7 @@ const CardProduct = ({ data }) => {
           </div>
 
           <button className="order_btn " onClick={() => addToCart(data)}>
-            BUYRUTMA
+            BUYRUTMa
           </button>
         </div>
       </div>

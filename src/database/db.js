@@ -1,6 +1,6 @@
 export let catalog = [
     {
-      title: "Burger",
+      title: "Burgerr",
       img: "../categroy/burger.webp",
     },
     {
